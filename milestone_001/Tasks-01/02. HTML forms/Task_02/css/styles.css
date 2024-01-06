@@ -4,9 +4,6 @@
 
 #body {
     color: wheat;
-    
-    /* padding-left: 50px; */
-    
     background-color: rgb(244, 174, 69);
     
 }
@@ -19,4 +16,8 @@ header > h1 {
     /* margin-top: 100px; */
     font-weight: 500;
     font-size: xx-large;
+}
+
+#heading-text{
+    padding: 20px;
 }
