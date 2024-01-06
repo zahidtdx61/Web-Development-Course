@@ -1,0 +1,13 @@
+#body {
+    background-image: url('../assets/image.jpg');
+    color: wheat;
+    background-repeat: no-repeat;
+    padding-left: 50px;
+}
+
+header > h1 {
+    margin-top: 100px;
+    font-weight: 500;
+    font-size: xx-large;
+
+}
