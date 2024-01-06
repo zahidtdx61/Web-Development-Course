@@ -1,11 +1,14 @@
-*{
+* {
     margin: 0;
 }
 
 #body {
-    color: wheat;
+    color: whitesmoke;
     background-color: rgb(244, 174, 69);
-    
+}
+
+#main {
+    width: 500px;
 }
 
 header > h1 {
@@ -18,6 +21,66 @@ header > h1 {
     font-size: xx-large;
 }
 
-#heading-text{
+#heading-text {
     padding: 20px;
+}
+
+.form-data {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.field {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.input-data {
+    width: 250px;
+    min-height: 20px;
+    border: 0;
+    border-radius: 3px;
+    padding: 2px;
+}
+
+select.input-data {
+    width: 254px;
+    min-height: 24px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-data-two {
+    display: flex;
+    justify-content: space-between;
+    width: 254px;
+}
+
+#amount-money {
+    min-width: 70%;
+}
+
+#currency {
+    min-width: 27%;
+}
+
+.set-height {
+    min-height: 24px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-field {
+    margin-bottom: 5px;
 }

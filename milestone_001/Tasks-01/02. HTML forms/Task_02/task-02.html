@@ -5,14 +5,95 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Contact</title>
         <link rel="stylesheet" href="./css/styles.css" />
+        <script
+            src="https://kit.fontawesome.com/6d69d9c6ba.js"
+            crossorigin="anonymous"
+        ></script>
     </head>
 
     <body id="body">
         <header>
             <h1 id="heading-text">Contact</h1>
         </header>
-        <main>
+        <main id="main">
+            <form class="form-data">
+                <label for="username" class="field">
+                    <span> <i class="fa-solid fa-user"></i> Name: </span>
+                    <input
+                        type="text"
+                        id="username"
+                        class="input-data"
+                        placeholder="Your Name"
+                    />
+                </label>
 
+                <label for="email" class="field">
+                    <span> <i class="fa-solid fa-envelope"></i> Email: </span>
+                    <input
+                        type="email"
+                        id="email"
+                        class="input-data"
+                        placeholder="Your Email"
+                    />
+                </label>
+
+                <label for="country" class="field">
+                    <span> <i class="fa-solid fa-envelope"></i> Country: </span>
+                    <select class="input-data">
+                        <option value="bangladesh">Bangladesh</option>
+                        <option value="india">India</option>
+                        <option value="pakistan">Pakistan</option>
+                        <option value="sri-lanka">Sri lanka</option>
+                    </select>
+                </label>
+
+                <label for="badget" class="field">
+                    <span> <i class="fa-solid fa-envelope"></i> Budget: </span>
+                    <span class="input-data-two">
+                        <input type="text" class="set-height" id="amount-money" />
+                        <select class="set-height" id="currency">
+                            <option value="tk">Taka</option>
+                            <option value="inr">INR</option>
+                            <option value="euro">Euro</option>
+                            <option value="dollar">Dollar</option>
+                        </select>
+                    </span>
+                </label>
+
+                <div class="services">
+                    <span> Services </span>
+                    <div class="services-list">
+                        <span class="box-field">
+                            <input
+                                type="checkbox"
+                                name="webdesign"
+                                id="webdesign"
+                            />
+                            <label for="webdesign">
+                                Webdesign (PSD Layouts)
+                            </label>
+                        </span>
+
+                        <span class="box-field">
+                            <input
+                                type="checkbox"
+                                name="site-build"
+                                id="site-build"
+                            />
+                            <label for="site-build">
+                                Sitebuilding (Slicing, HTML + CSS Layouts)
+                            </label>
+                        </span>
+
+                        <span class="box-field">
+                            <input type="checkbox" name="coding" id="coding" />
+                            <label for="coding">
+                                Coding (JavaScript, PHP Coding)
+                            </label>
+                        </span>
+                    </div>
+                </div>
+            </form>
         </main>
     </body>
 </html>
