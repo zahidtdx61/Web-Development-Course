@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personal Profile</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+
+    <body>
+        <header id="header">
+            <h1>Create your Personal Profile</h1>
+        </header>
+
+        <main id="main">
+            <div id="container">
+                <p class="container-info">
+                    We want to get to know you! Please Enter your personal
+                    information.
+                </p>
+
+                <div class="section-container">
+                    <fieldset class="section">
+                        <legend>
+                            <span class="section-title">
+                                Personal Information
+                            </span>
+                        </legend>
+
+                        <label for="first-name">
+                            <span class="input-info">First name</span>
+
+                            <input
+                                class="input-info"
+                                type="text"
+                                id="first-name"
+                                placeholder="First name"
+                            />
+                        </label>
+
+                        <label for="last-name">
+                            <span class="input-info">Last name</span>
+                            <input
+                                class="input-info"
+                                type="text"
+                                id="last-name"
+                                placeholder="Last name"
+                            />
+                        </label>
+
+                        <label for="birthday">
+                            <span class="input-info">Birthday</span>
+                            <input
+                                class="input-info"
+                                type="date"
+                                id="birthday"
+                            />
+                        </label>
+                    </fieldset>
+                </div>
+
+                <p class="container-info">
+                    Can you tell us bit more? We want to annoy you with unwanted
+                    adds.
+                </p>
+
+                <div class="section-container">
+                    <fieldset class="section">
+                        <legend>
+                            <span class="section-title">
+                                Further Information
+                            </span>
+                        </legend>
+
+                        <label for="fav-color">
+                            <span class="input-info">Favorite Color</span>
+                            <input
+                                type="color"
+                                id="fav-color"
+                                class="input-info"
+                                value="#ff0000"
+                            />
+                        </label>
+
+                        <label for="fav-pet">
+                            <span class="input-info">
+                                What is your favorite pet?
+                            </span>
+
+                            <select id="fav-pet" class="input-info">
+                                <option value="cat">Cat</option>
+                                <option value="tiger">Tiger</option>
+                                <option value="rat">Rat</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                </div>
+
+                <button type="button" class="submit-btn">Submit</button>
+            </div>
+        </main>
+
+        <footer id="footer"></footer>
+    </body>
+</html>
