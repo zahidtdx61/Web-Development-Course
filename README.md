@@ -12,4 +12,4 @@ Task Done
 
 -   Task from Forms
     -   [Task - 01](https://zahidtdx61.github.io/Web-Development-Course/milestone_001/Tasks-01/02_HTML-forms/Task_01/)
-    -   [Task - 02](https://zahidtdx61.github.io/Web-Development-Course/milestone_001/Tasks-01/02.%20HTML%20forms/Task_02/)
+    -   [Task - 02](https://zahidtdx61.github.io/Web-Development-Course/milestone_001/Tasks-01/02_HTML-forms/Task_02/)
